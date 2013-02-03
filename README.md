@@ -1,7 +1,7 @@
 circle5
 =======
 
-黑山五度圈推算
+黑山五度圈推算，黑山爵士音乐网：http://www.heishanjazz.com/
 
 本程序音乐原理：
 
