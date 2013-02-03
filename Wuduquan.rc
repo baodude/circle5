@@ -1,0 +1,188 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Wuduquan.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 532, 206
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "黑山五度圈推算"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "C",IDC_BUTTON1,15,56,29,15
+    PUSHBUTTON      "Db/C#",IDC_BUTTON8,33,82,29,15
+    PUSHBUTTON      "D",IDC_BUTTON3,53,56,29,15
+    PUSHBUTTON      "Eb/D#",IDC_BUTTON10,72,82,29,15
+    PUSHBUTTON      "E",IDC_BUTTON5,91,56,29,15
+    PUSHBUTTON      "F",IDC_BUTTON12,129,56,29,15
+    PUSHBUTTON      "F#/Gb",IDC_BUTTON7,149,82,29,15
+    PUSHBUTTON      "G",IDC_BUTTON2,167,56,29,15
+    PUSHBUTTON      "Ab/G#",IDC_BUTTON9,187,82,29,15
+    PUSHBUTTON      "A",IDC_BUTTON4,205,56,29,15
+    PUSHBUTTON      "Bb/A#",IDC_BUTTON11,226,82,29,15
+    PUSHBUTTON      "B",IDC_BUTTON6,243,56,29,15
+    GROUPBOX        "1.选择音名",IDC_STATIC,7,40,274,70
+    GROUPBOX        "2.选择功能",IDC_STATIC,7,119,274,73
+    PUSHBUTTON      "调包括哪些音",IDC_OK1,35,133,83,20
+    LTEXT           "口诀:\n    顺一反数七个音",IDC_KEY,35,161,208,20
+    PUSHBUTTON      "音属于哪些调",IDC_OK2,162,133,83,20
+    LTEXT           "黑山五度圈推算",IDC_MAINTITLE,25,10,175,23
+    LTEXT           "C",IDC_STATIC1,397,16,33,13
+    LTEXT           "G",IDC_STATIC2,357,21,33,13
+    LTEXT           "D",IDC_STATIC3,322,53,33,13
+    LTEXT           "A",IDC_STATIC4,311,90,17,13
+    LTEXT           "E",IDC_STATIC5,322,125,33,13
+    LTEXT           "B/Cb",IDC_STATIC6,354,159,33,13
+    LTEXT           "F#/Gb",IDC_STATIC7,390,161,33,13
+    LTEXT           "Db/C#",IDC_STATIC8,438,159,33,13
+    LTEXT           "Ab/G#",IDC_STATIC9,472,125,33,13
+    LTEXT           "Eb/D#",IDC_STATIC10,478,90,33,13
+    LTEXT           "Bb/A#",IDC_STATIC11,475,53,33,13
+    LTEXT           "F",IDC_STATIC12,438,21,33,13
+    LTEXT           "黑山爵士音乐",IDC_HTTP,221,9,49,8
+    LTEXT           "黑山音乐播客",IDC_BOKE,221,26,49,8
+    LTEXT           "Developed by shangbl@gmail.com",IDC_STATIC,408,186,110,
+                    8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 525
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "黑山五度圈推算"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Wuduquan"
+            VALUE "LegalCopyright", "Copyright shangbl@gmail.com 2009"
+            VALUE "OriginalFilename", "Wuduquan.exe"
+            VALUE "ProductName", "黑山五度圈推算"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST ""res\\\\Wuduquan.exe.manifest""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "res\\Wuduquan.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
