@@ -18,3 +18,5 @@ circle5
 开发环境：VC++ WTL/Microsoft Visual Studio
 
 完成时间：2009年6月11日
+
+![截图](Screenshot/20130219115011.png)
