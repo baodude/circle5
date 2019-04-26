@@ -11,8 +11,6 @@ circle5
 
 编译好的exe程序在Release文件夹内，五度圈使用方法及pdf文件下载，可在搜索引擎内查找。
 
-作者：宝哥哥
-
 应用环境：Windows全平台
 
 开发环境：VC++ WTL/Microsoft Visual Studio
